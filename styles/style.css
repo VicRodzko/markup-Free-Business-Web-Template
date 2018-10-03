@@ -1,0 +1,261 @@
+body {
+	box-sizing: border-box;
+}
+
+header {
+	width: 100%;
+	background: rgba(0, 0, 0, 0.9);
+}
+
+.container {
+	width: 980px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container p {
+	font-family: 'Pacifico', cursive;
+	color: #ffffff;
+	padding: 16px 0 20px 14px;
+	font-size: 24px;
+}
+
+.container p span {
+	color: #00bac6;
+}
+
+header .container .socio img {
+	width: 23px;
+	height: 23px;
+	padding: 16px 8px 17px 15px;
+}
+
+.logo a {
+	text-decoration: none;
+}
+
+.container nav ul li a {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #8b8b8b;
+}
+
+.container nav ul li {
+	display: inline-block;
+	padding: 30px 19px 30px 11px;
+	margin: 10px 8px 5px 0;
+}
+
+.container nav ul li a:hover {
+	color: #00bac6;
+	border-bottom: 2px solid #00bac6;
+	color: #00bac6;
+	padding-bottom: 30px;
+}
+
+.search p input {
+	padding: 10px 20px;
+	border-radius: 3px;
+	background: url(../img/musica-searcher.svg) no-repeat;
+	background-size: 20px;
+	background-position: 95% center;
+	border: 1px solid #d6d6d6;
+	margin-top: 10px;
+}
+
+main {
+	padding-top: 58px;
+	width: 980px;
+	margin: 0 auto;
+}
+
+main h1 {
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	color: #818181;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+main h1 span {
+	font-weight: bold;
+	color: #646464;
+}
+
+main a {
+	text-decoration: none;
+}
+
+main p {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 15px;
+	color: #9a9a9a;
+	text-align: center;
+	padding-bottom: 45px;
+}
+
+.computer, .pen, .landscape {
+	width: 33.059999999%;
+	display: inline-block;
+	text-align: center;
+}
+
+main div img {
+	width: 120px;
+	height: 120px;
+	padding-bottom: 18px;
+}
+
+.computer h2, .pen h2, .landscape h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #818181;
+	padding-bottom: 18px;
+}
+
+.computer h2 span, .pen h2 span, .landscape h2 span {
+	color: #7b7b7b;
+	font-weight: bold;
+}
+
+.computer p, .pen p, .landscape p {
+	padding-bottom: 70px;
+}
+
+.computer:hover, .pen:hover, .landscape:hover {
+	position: relative;
+	top: 25px;
+	background: url(../img/danger.svg) no-repeat;
+	background-size: 60px;
+	background-position: bottom 15px center;
+	border-top-left-radius: 10%;
+	border-top-right-radius: 10%;
+}
+
+.galery {
+	width: 100%;
+	background: #eeeeee;
+}
+
+.galery .container {
+	padding-top: 40px;
+	display: flex;
+  	flex-flow: row wrap;
+  	justify-content: space-between;
+  	padding-bottom: 22px;
+}
+
+.galery .container div {
+	width: 310px;
+	margin-bottom: 27px;
+}
+
+.galery .container div h3 {
+	margin-top: -75px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #7c7b7b;
+	padding-left: 25px;
+}
+
+.galery .container div p {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	color: #909090;
+	padding-left: 25px;
+	margin-top: -8px;	
+}
+
+.galery .container div a {
+	text-decoration: none;
+}
+
+.partner {
+	width: 980px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 50px 0;
+}
+
+footer {
+	background: #50504e;
+}
+
+footer .info h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	color: #ffffff;
+	padding-bottom: 20px;
+}
+
+footer .info p {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	color: #c0c0c0;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 15px;
+}
+
+footer .info div {
+	width: 18%;
+	padding-top: 40px;
+}
+
+footer .info div p span {
+	color: #727374;
+	padding-left: 20px;
+}
+
+.clock {
+	background: url(../img/clock-circular-outline.svg) no-repeat;
+	background-size: 14px;
+}
+
+.street {
+	background: url(../img/map-localization.svg) no-repeat;
+	background-size: 14px;
+}
+
+.email {
+	background: url(../img/envelope.svg) no-repeat;
+	background-size: 14px;
+}
+
+.call {
+	background: url(../img/telephone.svg) no-repeat;
+	background-size: 14px;
+}
+
+.info .street span, .info .email span, .info .call span {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	color: #c1c1c1;
+}
+
+footer .info {
+	padding-bottom: 30px;
+}
+
+.last {
+	width: 100%;
+	background: #252325;
+}
+
+footer .socio img {
+	width: 23px;
+	height: 23px;
+	padding: 30px 8px 33px 15px;
+}
+
+.last p {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	color: #979796;
+	padding-top: 36px;
+}
